@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      document.getElementsByTagName("html")[0].className += " js";
+    </script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Time Table - CSE 4th Sem</title>
+  </head>
+  <body>
+    <header class="cd-main-header text-center flex flex-column flex-center">
+      <h1 class="text-xl"><br>CIEM CSE 4th Sem Timetable </h1>
+    </header>
+
+    <a href="https://your-url" class="github-corner" aria-label="View source on GitHub">
+      <svg width="80" height="80" viewBox="0 0 250 250" style="fill:#64CEAA; color:#fff; position: absolute; top: 0; border: 0; left: 0; transform: scale(-1, 1);" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm">
+        </path>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+
+    <div
+      class="cd-schedule cd-schedule--loading margin-top-lg margin-bottom-lg js-cd-schedule"
+    >
+      <div class="cd-schedule__timeline">
+        <ul>
+          <li><span>10:00</span></li>
+          <li><span>10:30</span></li>
+          <li><span>11:00</span></li>
+          <li><span>11:30</span></li>
+          <li><span>12:00</span></li>
+          <li><span>12:30</span></li>
+          <li><span>13:00</span></li>
+          <li><span>13:30</span></li>
+          <li><span>14:00</span></li>
+          <li><span>14:30</span></li>
+          <li><span>15:00</span></li>
+          <li><span>15:30</span></li>
+          <li><span>16:00</span></li>
+          <li><span>16:30</span></li>
+        </ul>
+      </div>
+      <!-- .cd-schedule__timeline -->
+
+      <div class="cd-schedule__events">
+        <ul>
+          <li class="cd-schedule__group">
+            <div class="cd-schedule__top-info"><span>Monday</span></div>
+
+            <ul>
+              <li class="cd-schedule__event">
+                <a
+                  data-start="10:00"
+                  data-end="11:00"
+                  data-content="event-design-and-analysis-algorithms"
+                  data-event="event-1"
+                  href="#0"
+                >
+                  <em class="cd-schedule__name">Design & Analysis of Algorithms (MP)</em>
+                </a>
+              </li>
+
+              <li class="cd-schedule__event">
+                <a
+                  data-start="11:00"
+                  data-end="12:00"
+                  data-content="event-computer-architecture"
+                  data-event="event-3"
+                  href="#0"
+                >
+                  <em class="cd-schedule__name">Computer Architecture (DBA)</em>
+                </a>
+              </li>
+
+              <li class="cd-schedule__event">
+                <a
+                  data-start="12:00"
+                  data-end="13:00"
+                  data-content="event-discrete-mathematics"
+                  data-event="event-4"
+                  href="#0"
+                >
+                  <em class="cd-schedule__name">Discrete Mathematics (SP)</em>
+                </a>
+              </li>
+
+              <li class="cd-schedule__event">
+                <a
+                  data-start="13:00"
+                  data-end="14:00"
+                  data-content="event-formal-language-and-automata-theory"
+                  data-event="event-5"
+                  href="#0"
+                >
+                  <em class="cd-schedule__name">Formal Language & Automata Theory (DBA)</em>
+                </a>
+              </li>
+
+              <li class="cd-schedule__event">
+                <a
+                  data-start="14:00"
+                  data-end="14:30"
+                  data-content="event-recess"
+                  data-event="event-6"
+                  href="#0"
+                >
+                <em class="cd-schedule__name"> </em>
+                </a>
+              </li>
+
+              <li class="cd-schedule__event">
+                <a
+                  data-start="14:30"
+                  data-end="15:30"
+                  data-content="event-biology"
+                  data-event="event-7"
+                  href="#0"
+                >
+                  <em class="cd-schedule__name">Biology</em>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="cd-schedule__group">
+            <div class="cd-schedule__top-info"><span>Tuesday</span></div>
+
+            <ul>
+              <li class="cd-schedule__event">
+                <a
+                  data-start="10:00"
+                  data-end="14:00"
+                  data-content="event-computer-architecture-lab-and-design-and-analysis-of-algorithms-lab"
+                  data-event="event-2"
+                  href="#0"
+                >
+                  <em class="cd-schedule__name"><br><br><br><br>Computer Architecture Lab (DBA) [Group-I]<b>/</b>
+                    <br>Design and Analysis of Algorithms Lab [Group-II]</em>
+                </a>
+              </li>
+
+              <li class="cd-schedule__event">
+                <a
+                  data-start="14:00"
+                  data-end="14:30"
+                  data-content="event-recess"
+                  data-event="event-6"
+                  href="#0"
+                >
+                <em class="cd-schedule__name"> </em>
+                </a>
+              </li>
+
+              <li class="cd-schedule__event">
+                <a
+                  data-start="14:30"
+                  data-end="15:30"
+                  data-content="event-enviromental-science"
+                  data-event="event-8"
+                  href="#0"
+                >
+                  <em class="cd-schedule__name">Enviromental Science</em>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="cd-schedule__group">
+            <div class="cd-schedule__top-info"><span>Wednesday</span></div>
+
+            <ul>
+              <li class="cd-schedule__event">
+                <a
+                  data-start="10:00"
+                  data-end="11:00"
+                  data-content="event-computer-architecture"
+                  data-event="event-3"
+                  href="#0"
+                >
+                  <em class="cd-schedule__name">Computer Architecture (DBA)</em>
+                </a>
+              </li>
+
+              <li class="cd-schedule__event">
+                <a
+                  data-start="11:00"
+                  data-end="12:00"
+                  data-content="event-design-and-analysis-algorithms"
+                  data-event="event-1"
+                  href="#0"
+                >
+                  <em class="cd-schedule__name">Design & Analysis of Algorithms (MP)</em>
+                </a>
+              </li>
+
+              <li class="cd-schedule__event">
+                <a
+                  data-start="12:00"
+                  data-end="13:00"
+                  data-content="event-biology"
+                  data-event="event-7"
+                  href="#0"
+                >
+                  <em class="cd-schedule__name">Biology</em>
+                </a>
+              </li>
+
+              <li class="cd-schedule__event">
+                <a
+                  data-start="13:00"
+                  data-end="14:00"
+                  data-content="event-formal-language-and-automata-theory"
+                  data-event="event-5"
+                  href="#0"
+                >
+                  <em class="cd-schedule__name">Formal Language & Automata Theory (DBA)</em>
+                </a>
+              </li>
+
+              <li class="cd-schedule__event">
+                <a
+                  data-start="14:00"
+                  data-end="14:30"
+                  data-content="event-recess"
+                  data-event="event-6"
+                  href="#0"
+                >
+                <em class="cd-schedule__name"> </em>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="cd-schedule__group">
+            <div class="cd-schedule__top-info"><span>Thursday</span></div>
+
+            <ul>
+              <li class="cd-schedule__event">
+                <a
+                  data-start="10:00"
+                  data-end="14:00"
+                  data-content="event-computer-architecture-lab-and-design-and-analysis-of-algorithms-lab"
+                  data-event="event-2"
+                  href="#0"
+                >
+                  <em class="cd-schedule__name"><br><br><br><br>Computer Architecture Lab (DBA) [Group-II]<b>/</b>
+                    <br>Design and Analysis of Algorithms Lab [Group-I]</em>
+                </a>
+              </li>
+
+              <li class="cd-schedule__event">
+                <a
+                  data-start="14:00"
+                  data-end="14:30"
+                  data-content="event-recess"
+                  data-event="event-6"
+                  href="#0"
+                >
+                <em class="cd-schedule__name"> </em>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="cd-schedule__group">
+            <div class="cd-schedule__top-info"><span>Friday</span></div>
+            <ul>
+              <li class="cd-schedule__event">
+                <a
+                  data-start="10:00"
+                  data-end="11:00"
+                  data-content="event-design-and-analysis-algorithms"
+                  data-event="event-1"
+                  href="#0"
+                >
+                  <em class="cd-schedule__name">Design & Analysis of Algorithms (MP)</em>
+                </a>
+              </li>
+
+              <li class="cd-schedule__event">
+                <a
+                  data-start="11:00"
+                  data-end="12:00"
+                  data-content="event-formal-language-and-automata-theory"
+                  data-event="event-5"
+                  href="#0"
+                >
+                  <em class="cd-schedule__name">Formal Language & Automata Theory (DBA)</em>
+                </a>
+              </li>
+
+              <li class="cd-schedule__event">
+                <a
+                  data-start="12:00"
+                  data-end="13:00"
+                  data-content="event-computer-architecture"
+                  data-event="event-3"
+                  href="#0"
+                >
+                  <em class="cd-schedule__name">Computer Architecture (DBA)</em>
+                </a>
+              </li>
+
+              <li class="cd-schedule__event">
+                <a
+                  data-start="13:00"
+                  data-end="14:00"
+                  data-content="event-discrete-mathematics"
+                  data-event="event-4"
+                  href="#0"
+                >
+                  <em class="cd-schedule__name">Discrete Mathematics (SP)</em>
+                </a>
+              </li>
+
+              <li class="cd-schedule__event">
+                <a
+                  data-start="14:00"
+                  data-end="14:30"
+                  data-content="event-recess"
+                  data-event="event-6"
+                  href="#0"
+                >
+                <em class="cd-schedule__name"> </em>
+                </a>
+              </li>
+
+              <li class="cd-schedule__event">
+                <a
+                  data-start="14:30"
+                  data-end="15:30"
+                  data-content="event-enviromental-science"
+                  data-event="event-8"
+                  href="#0"
+                >
+                  <em class="cd-schedule__name">Enviromental Science</em>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+
+        </ul>
+      </div>
+      
+      <div class="cd-schedule-modal">
+        <header class="cd-schedule-modal__header">
+          <div class="cd-schedule-modal__content">
+            <span class="cd-schedule-modal__date"></span>
+            <h3 class="cd-schedule-modal__name"></h3>
+          </div>
+
+          <div class="cd-schedule-modal__header-bg"></div>
+        </header>
+
+        <div class="cd-schedule-modal__body">
+          <div class="cd-schedule-modal__event-info"></div>
+          <div class="cd-schedule-modal__body-bg"></div>
+        </div>
+
+        <a href="#0" class="cd-schedule-modal__close text-replace">Close</a>
+      </div>
+
+      <div class="cd-schedule__cover-layer"></div>
+    </div>
+    <!-- .cd-schedule -->
+
+    <script src="assets/js/util.js"></script>
+    <!-- util functions included in the CodyHouse framework -->
+    <script src="assets/js/main.js"></script>
+
+    <footer class="text-center flex flex-column flex-center">
+      <p class="margin-top-md margin-bottom-xl">
+        
+        Made with <b style="color: red;">&#x2764;&#xfe0f;</b> by 
+        <a href="https://github.com/avinashkranjan" style="color: black;">Avinash Ranjan</a>
+      </p>
+
+    </footer>
+
+  </body>
+</html>
