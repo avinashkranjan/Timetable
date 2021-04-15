@@ -22,7 +22,7 @@
 - This experiment is built upon the **_[CodyHouse Framework](https://codyhouse.co/license)_**
 - Make sure to include both the **style.scss** and **util.js** files of the framework.
 
-<h3 align="center"> :heart: Found this project useful? </h3>
+<h2 align="center"> :heart: Found this project useful? </h2>
 
 - If you found this Project Useful, then Please Consider giving it a :star: on **Github**.
 
