@@ -10,7 +10,7 @@
 [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
-<h1 align="center">How to build your Timetable 📅 & Deploy it? 🌎 </h1>
+<h1 align="center">How to build your own Timetable 📅 & Deploy it? 🌎 </h1>
 
 - Fork this **Repo** and **_Clone the forked repo_**.
 - Open **index.html** and customize as per your schedule and save it.
@@ -34,4 +34,4 @@
 <p align="center">
   <img src="https://img.shields.io/badge/avinashkranjan%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>  <img src="https://img.shields.io/badge/iavinashranjan%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/> <img src="https://img.shields.io/badge/avinashkranjan7%20-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white"/>  
 
-<h4 align="center"> Insiped By : <a href="https://github.com/sagnik20/timetable">Sagnik Chattopadhyaya</a> </h4>
+<h4 align="center"> Inspired By : <a href="https://github.com/sagnik20/timetable">Sagnik Chattopadhyaya</a> </h4>
