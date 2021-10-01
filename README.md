@@ -10,7 +10,7 @@
 [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
-<h1 align="center">How to build your own Timetable 📅 & Deploy it? 🌎 </h1>
+<h2 align="center">How to build your own Timetable 📅 & Deploy it? 🌎 </h2>
 
 - Fork this **Repo** and **_Clone the forked repo_**.
 - Open **index.html** and customize as per your schedule and save it.
