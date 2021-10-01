@@ -16,22 +16,29 @@
 - Open **index.html** and customize as per your schedule and save it.
 - After doing it, upload the root folder in `github` and enable **Github Pages**.
 - **_Congratulations_**, you got your own _timetable_ up and running on your new Github Pages link and you can shorten the url by going to `tinyurl.com` and making an `alias`.
+<br>
 
 <h2 align="center"> Dependencies 📲 </h2>
 
 - This experiment is built upon the **_[CodyHouse Framework](https://codyhouse.co/license)_**
 - Make sure to include both the **style.scss** and **util.js** files of the framework.
+<br>
 
 <h2 align="center"> :heart: Found this project useful? </h2>
 
 - If you found this Project Useful, then Please Consider giving it a :star: on **Github**.
+<br>
 
 <h2 align="center"> Project Created & Maintained By </h2>
            
 <p align="center">
-  <a href="https://github.com/avinashkranjan"><img src="https://user-images.githubusercontent.com/55796944/95675026-dab07580-0bd1-11eb-93e2-1cb1de8acf38.png" width=150px height=150px /></a> 
+  <a href="https://github.com/avinashkranjan">
+             <img src="https://user-images.githubusercontent.com/55796944/95675026-dab07580-0bd1-11eb-93e2-1cb1de8acf38.png" width=150px height=150px />
+  </a> 
     
 <p align="center">
   <img src="https://img.shields.io/badge/avinashkranjan%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>  <img src="https://img.shields.io/badge/iavinashranjan%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/> <img src="https://img.shields.io/badge/avinashkranjan7%20-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white"/>  
 
-<h4 align="center"> Inspired By : <a href="https://github.com/sagnik20/timetable">Sagnik Chattopadhyaya</a> </h4>
+<h4 align="center"> 
+           Inspired By : <a href="https://github.com/sagnik20/timetable">Sagnik Chattopadhyaya</a> 
+</h4>
