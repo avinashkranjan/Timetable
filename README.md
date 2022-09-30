@@ -18,7 +18,7 @@
 - **_Congratulations_**, you got your own _timetable_ up and running on your new Github Pages link and you can shorten the url by going to `tinyurl.com` and making an `alias`.
 <br>
 
-<h2 align="center"> Dependencies 📲 </h2>
+<h1 align="center"> Dependencies 📲 </h1>
 
 - This experiment is built upon the **_[CodyHouse Framework](https://codyhouse.co/license)_**
 - Make sure to include both the **style.scss** and **util.js** files of the framework.
