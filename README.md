@@ -24,7 +24,7 @@
 - Make sure to include both the **style.scss** and **util.js** files of the framework.
 <br>
 
-<h1 align="center"> :heart: Found this project useful? </h1>
+<h1 align="center"> Found this project useful? :heart: </h1>
 
 - If you found this Project Useful, then Please Consider giving it a :star: on **Github**.
 <br>
